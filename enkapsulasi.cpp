@@ -29,6 +29,10 @@ int main()
     lampuRumah.setSaklarNo(3, "Lampu Dapur");
     
     // Menampilkan nilai saklar
+    cout << "Saklar 0: " << lampuRumah.getSaklarNo(0) << endl;
+    cout << "Saklar 1: " << lampuRumah.getSaklarNo(1) << endl;
+    cout << "Saklar 2: " << lampuRumah.getSaklarNo(2) << endl;
+    cout << "Saklar 3: " << lampuRumah.getSaklarNo(3) << endl;
 
     return 0;
 }
