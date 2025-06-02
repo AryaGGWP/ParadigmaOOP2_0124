@@ -18,3 +18,15 @@ private:
         cout << "Nilai y: " << y << endl;
     }
 };
+
+int main() {
+    AbstraksiKlas ak;
+    
+    // mengisi nilai private member
+    ak.setXY("Yogyakarta", "Kampus");
+    
+    // menampilkan nilai
+    ak.display();
+    
+    return 0;
+}
